@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@media print {
+	a[href]:after {
+		content: none;
+	}
+	.btn {
+		display: none;
+	}
+	/* for printing item detail */
+	.container-print {
+		margin-left: 11pt;
+		margin-right: 11pt;	
+		font-size: 11pt;
+		color: black;
+	}
+	.logo-print {
+		text-align: center;
+		font-size: 1.8em;
+		width: 100%;
+		letter-spacing: .1em;
+		margin-bottom: 40pt;
+		margin-top: 0pt;
+		font-weight:bold;
+	}
+	.img-center {margin:0 auto;}
+	.title-print {
+		text-transform:uppercase;
+		font-size: 1.4em;
+		margin-bottom: 5pt;
+	}
+	.artist-print {
+		text-transform:uppercase;
+		font-size: 1.2em;
+		margin-bottom: 5pt;
+	}
+	.image-print {
+		margin-top: 8pt;
+		margin-bottom: 8pt;
+	}
+	.medium-print {
+		margin-top: 5pt;
+	}
+	.dims-print {
+	}
+	.circa-print {
+	}
+	.price-print {
+		margin-top: 10pt;
+		margin-bottom: 10pt;
+	}
+	.caveats-print {
+		margin-bottom: 10pt;
+		font-size: .8em;
+	}
+	.footer-print {
+		font-size: .8em;
+	}
+}
+/* want same size "block" when paging through items on larger screens */
+@media (min-width: 768px) {
+	.artist-column {
+		min-height: 560px;
+	}
+}
+/* prevent carousel control from fouling up collapsed menu */
+@media (max-width: 768px) {
+	.artist-item {
+		position: relative;
+	}
+}
+
+.list-group-item {
+	padding-left: 5px !important;	
+}
+.artist-item {
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+.artist-item-label {
+	width: 100px;
+	float: left;
+	text-transform:uppercase;
+}
+.artist-photo-block {
+	padding-left: 5px;
+}
+.artist-photo {
+}
+.artist-photo img {
+	max-height: 200px;
+}
+.item-description {
+	text-transform:none;
+}
+.cm-dims {
+	padding-left: 100px;
+	font-size: .8em;
+	font-style:italic;
+	text-transform:lowercase;
+}
+.info-column {
+	margin-left: 5px;	
+}
+.item-info  {
+	border: 0;
+	background-image: ;
+	text-shadow: 0;
+	border-color: #fff;
+	list-style: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-bottom: 0;
+	padding-left: 0 !important;
+}
+.item-info button, .bio-buttons button {
+	text-transform: uppercase;
+	margin: 2px;
+	font-size: .8em !important;
+}
+.bio-buttons {
+	margin: 10px;
+}
+
+.share-options, .share-options a {
+	font-size: .9em !important;
+}
+
+#enlarge-link { 
+	margin:3px; 
+	margin-left: 0px;
+}
+.item-panel {
+	margin-top: 10px;
+}
+.works-link {
+	font-size: .7em;
+	font-weight: normal;
+	padding-left: 25px;
+}
+h2, h3, h4 {
+	margin: 0;
+	padding 0;
+	font-size: 1em;
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+.mixed-case {
+	text-transform: none !important;
+}
+span.glyphicon-arrow-right, span.glyphicon-arrow-left {
+	font-size: 1.6em;
+}
+.artist-bio {
+	padding-top: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #e7e7e7;
+	line-height: 1.2em;
+}
+.pager .next > a,
+.pager .next > span {
+  float: none !important;
+}
+.pager .previous > a,
+.pager .previous > span {
+  float: none !important;
+  padding-right: 20px;
+}
+
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+/* Fade controls with items */
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-arrow-left,
+.carousel-control .glyphicon-arrow-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-arrow-left,
+.carousel-control .glyphicon-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+  font-size: 16px !important;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-arrow-right,
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+  font-size: 16px !important;
+}
+
+#inquire-form .input-group[class*="col-"] {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#email-to-friend-form .input-group[class*="col-"] {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* mult image stuff */
+#multiple-thumbs {
+	list-style: none;
+	width: 100%;
+	text-align:left;
+	margin-left: 10px;
+}
+#multiple-thumbs ul {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+a.thumb > i.fa:hover { 
+	color: #000 !important;
+}
+.qtip-default {
+	background-color: #fff;	
+	border: 1px solid #999;
+}
+
+.dropdown-share {
+	margin-left: 100px;	
+}

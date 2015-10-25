@@ -1,0 +1,75 @@
+/* CSS Document for browse-works.php */
+.search-criteria {
+	padding-right: 10px;	
+}
+.checkbox-inline {
+	min-width: 130px;	
+}
+.browse-filter {
+	padding: 10px;	
+	padding-bottom: 0px;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+.browse-filter .btn, #add-filter {
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: .2em;
+}
+#add-filter {
+	
+}
+.browse-works {
+	margin-top: 10px;
+}
+.selected-filter {
+	padding-left: 5px;
+	padding-right: 5px;	
+	text-transform: uppercase;
+	font-size: .8em;
+	font-style:italic;
+}
+.infinite-container {
+  margin: 0 auto;
+}
+.infinite-item {
+  margin: 5px;
+  line-height: 1.4em;
+  float: left;
+  background: #eaeaea;
+/*    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+*/}
+.infinite-item img {
+	display: block;
+	float: left;
+/*	border-radius: 5px 5px 0px 0px; 
+	-moz-border-radius: 5px 5px 0px 0px; 
+	-webkit-border-radius: 5px 5px 0px 0px; 
+*/}
+.caption {
+	word-wrap: break-word !important;
+	float: left;
+	clear: left;
+	padding: 5px;
+	width: 200px;
+}
+#fit-width .masonry {
+  margin: 0 auto;
+}
+#infscr-loading {
+  position: fixed;
+  bottom: 30px;
+  left: 42%;
+  z-index: 100;
+  background: white;
+  background: hsla( 0, 0%, 100%, 0.9 );
+  padding: 20px;
+  color: #222;
+  font-size: 15px;
+  font-weight: bold;
+  text-align:center;
+}
+
+

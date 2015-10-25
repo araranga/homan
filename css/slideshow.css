@@ -1,0 +1,65 @@
+/* common slideshow settings for use with bootstrap carousel */
+
+#slide-caption {
+	margin-top: 10px;
+	color: #333;
+}
+/* center carousel images */
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+/*width: 100%;  use this, or not */
+margin: auto;
+}
+
+/* Fade transition for carousel items (rather than default sliding) */
+.carousel .item {
+    left: 0 !important;
+      -webkit-transition: opacity 3s; /*adjust timing here */
+         -moz-transition: opacity 3s;
+           -o-transition: opacity 3s;
+              transition: opacity 3s;
+}
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+	font-size: 16px !important;	
+}
+/* glyphicon size adjustments */
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+/* Fade controls with items */
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}
+
+/* for indicators below the slides */
+.carousel-indicators {
+  bottom:-40px;
+  text-align: right;
+  /*width: 64%;*/
+}
+
+.carousel-indicators li {
+  border-color:#999;
+  background-color:#ccc;
+}
+
+.carousel-inner {
+   margin-bottom:40px;
+}
+
