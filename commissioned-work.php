@@ -70,8 +70,7 @@ $bannerimages = $banners['items'][0]['pictures'];
          <p>
             Commissioned Work
          </p>
-		 <p>Content here</p>
-         <p>&nbsp;</p>
+		 <p style='text-align:justify;'>Commissioning an artist whom the client and designer has elected is facilitated by CHELRA for site-specific projects. The chosen artist is either given the artistic freedom to create the mural or set of works with the designers-client’s needs in mind or the art may be a collaboration and meeting of minds among the parties concerned.</p>
       </div>
    </div>
    <!-- /row  -->

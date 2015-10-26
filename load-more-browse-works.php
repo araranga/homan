@@ -2,7 +2,9 @@
    include("api.php");
    $limit = $_GET['limit'];
    $items = loadallitem($limit);
-   foreach($items['items'] as $key=>$val) {   
+   foreach($items['items'] as $key=>$val) {  
+   if($val['pictures'][0]!='')
+   {
    ?>
 <div class="infinite-item">
    <a href="browse-item.php?artistId=<?php echo $val['artistId'];?>&itemId=<?php echo $val['itemId'];?>">
@@ -13,6 +15,7 @@
    </div>
 </div>
 <?php
+   }
    }
    ?> 
 <?php

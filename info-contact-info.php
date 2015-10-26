@@ -23,86 +23,52 @@
       </div>
 	 <?php include("inc/header.php");?>
 	
-
-
-
 <div class="container">
    <div class="row">
       <div class="col-sm-12 col-md-4">
          <div class="row contact-block">
             <h4>Address</h4>
             <p><span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">HOHMANN FINE ART</span><br>
-               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">73-660 El Paseo</span><br>
-               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Palm Desert, CA 92260</span><br>
-               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">U.S.A.</span>
+               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Unit 31E, Tower 3, One Orchard Road Building</span><br>
+               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Orhard Road, Eastwood City, Libis, Q.C.</span><br>
+               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Philippines.</span>
             </p>
          </div>
          <div class="row contact-block">
             <h4>Mailing Address</h4>
-            <p><span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">P.O. BOX 3407</span><br>
-               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Palm Desert, CA 92261</span><br>
-               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">U.S.A.</span>
+            <p><span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">P 53 Amsterdam Street</span><br>
+               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Capitol Park Homes, Quezon City</span><br>
+               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">Philippines</span>
             </p>
          </div>
+		 
+ 
+                                     
+                                     		 
          <div class="row contact-block">
             <h4>Phone</h4>
-            <p><span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">(760) 346-4243&nbsp;</span><br>
-               <span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px">(877) 977-2432</span>
+            <p>
+			<span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px"> Landline:(02) 661-1046&nbsp;</span><br>
+			<span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px"> Wireless landline: (02) 966-1566&nbsp;</span><br>
+			<span style="background-color:rgb(255, 255, 255); color:rgb(51, 51, 51); font-family:muli,lato,sans-serif; font-size:13px"> Mobile:  0917-892-8351&nbsp;</span><br>			
             </p>
             <p>&nbsp;</p>
             <p><strong><span style="font-family:muli; font-size:10pt">COPYRIGHT</span></strong></p>
-            <p><span style="font-family:muli; font-size:10pt">Hohmann Fine Art, Inc. No written material or imagery in part or in full may be reproduced or used without express written permission from Hohmann Fine Art, Inc. The copyright of the individual works of art lie with the artists, but will be enforced by the gallery as their representative.</span></p>
-            <p><span style="font-family:muli; font-size:10pt">United States Federal and California State law applies. Place of jurisdiction is Palm Desert, CA.</span></p>
-         </div>
-         <div class="row contact-block">
-            <a href="#info-contact" data-toggle="modal">
-               <h4>Contact Us Via E-Mail</h4>
-            </a>
-         </div>
-         <div class="row contact-block">
-            <a class="footer-popup-link" href="#impressum-popup">
-               <h4>IMPRESSUM</h4>
-            </a>
-         </div>
-         <div class="row contact-block">
-            <p> <a href="#" target="_blank" ><img src="img/facebook.png" width="20">&nbsp;FACEBOOK</a>
-            </p>
-            <p><a href="#" target="_blank"><img src="img/pinterest.png" width="20">&nbsp;PINTEREST</a>
-            </p>
-            <p> <a href="#" target="_blank" ><img src="img/issuu.png" width="20">&nbsp;ISSUU</a>
-            </p>
-            <p> <a href="#" target="_blank" ><img src="img/twitter.png" width="20">&nbsp;TWITTER</a>
-            </p>
-            <p> <a href="#" target="_blank" ><img src="img/instagram.png" width="20">&nbsp;INSTAGRAM</a>
-            </p>
-            <p> <a href="#" target="_blank" ><img src="img/vimeo.png" width="20">&nbsp;VIMEO</a>
-            </p>
-            <p> <a href="#" target="_blank" ><img src="img/tumblr.png" width="20">&nbsp;TUMBLR</a>
-            </p>
+            <p><span style="font-family:muli; font-size:10pt">Written material or imagery in part or in full without express written permission from Chelra is not permitted. The copyright of the individual artist will be enforced by Chelra as their authorized representative.</span></p>
          </div>
       </div>
       <div class="col-sm-12 col-md-4">
          <div class="row contact-block">
-            <h4>Business Hours</h4>
-            <p>Monday - Saturday 10am-6pm (October - May)<br>
-               Tuesday - Saturday 10am-6pm (June - September)&nbsp; &nbsp; &nbsp; Sundays open seasonally and by appointment. Please call.
-            </p>
-         </div>
-         <div class="row contact-block">
             <h4>Directions &amp; Parking</h4>
             <p style="text-align:start">Click on google map for directions.</p>
-            <p style="text-align:start">El Paseo street parking is free, additional parking<br>
-               in the back is accessible from Larkspur or San Luis Rey,<br>
-               north of El Paseo.
-            </p>
          </div>
          <div class="row contact-block">
             <h4>Appointments</h4>
-            <p><span style="color:rgb(51, 51, 51); font-family:muli; font-size:10pt">Appointments are recommended to see a specific work from the web site as some works are located in our off-site warehouse. Appointments are also recommended to speak to a principal or a senior art consultant. Appointments are required for any kind of solicitation including advertising. No appointments are required to see the exhibitions.</span></p>
+            <p><span style="color:rgb(51, 51, 51); font-family:muli; font-size:10pt">Appointments to view specific works or collection of works may be arranged for a presentation “ON SITE” with a principal or a senior art consultant.</span></p>
          </div>
          <div class="row contact-block">
             <h4>Consignment/Resale</h4>
-            <p><span style="color:rgb(51, 51, 51); font-family:muli; font-size:10pt">The gallery is not set up for individual re-sale, but we do occasionally acquire or sell works from private sources. To see if your work is eligible to be considered, please contact the gallery. Please do not bring any art work to the gallery without contacting the gallery first.</span></p>
+            <p><span style="color:rgb(51, 51, 51); font-family:muli; font-size:10pt">We occasionally acquire or resell works from private sources. To find out if your artwork is eligible, please contact Chelra for appointment.</span></p>
          </div>
          <div class="row contact-block">
             <h4>Appraisals</h4>
@@ -119,7 +85,7 @@
       <div class="col-sm-12 col-md-4">
          <div class="row contact-block">
             <div id="mapCanvas" class="map-canvas">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3318.576144790148!2d-116.37933500000003!3d33.719915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafe7b412a4d6d%3A0xd81434dbab44f25e!2sHohmann+Fine+Art!5e0!3m2!1sen!2sus!4v1416592855262" width="400" height="300" frameborder="0" style="border:0"></iframe>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d682.4986537427169!2d121.07832216643133!3d14.61072751859091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d14.610691699999999!2d121.07854979999999!4m5!1s0x3397b7f617db2d77%3A0x2e356e88baef4de!2sOne+Orchard+Rd%2C+Quezon+City%2C+Metro+Manila!3m2!1d14.610659!2d121.0785645!5e0!3m2!1sen!2sph!4v1445816854715" width="400" height="300" frameborder="0" style="border:0"></iframe>
             </div>
          </div>
       </div>

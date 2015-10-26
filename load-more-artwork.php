@@ -6,6 +6,8 @@
 			$artistId = $_GET['artistId'];
 			$items = loadallitembyartist($limit,$artistId);
 			foreach($items['items'] as $key=>$val) {	
+			if($val['pictures'][0]!='')
+			{
 			 ?>
 				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
 				   <!-- 2 per row small screen, 4 per row large screen --> 
@@ -30,6 +32,7 @@
 				</div>			 
 			 <?php
 			 }
+			}
 			 ?>			 
 </div>
 <?php

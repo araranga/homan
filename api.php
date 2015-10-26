@@ -9,6 +9,14 @@ function url_get_contents ($Url) {
     $output = curl_exec($ch);
     curl_close($ch);
     $datas = json_decode($output,TRUE);
+	
+	if($_GET['debug']==1)
+	{
+		echo "<pre>";
+		print_r($datas);
+		echo "</pre>";
+	}
+	
     return $datas;
 }
 
@@ -58,6 +66,22 @@ function loadallitem($limit)
 	return 	$banner;	
 }
 
+function loadfirst()
+{
+$itemid = $_GET['itemId'];
+$artistid = $_GET['artistId'];
+$api = "https://api.masterpiecesolutions.org/v1/items/?key=9GMIe191f6jo81LGPHpWsA==&sortOptions=title|asc&artistId=$artistid&limit=1";	
+$result = url_get_contents($api);
+return $result['items']['0']['itemId'];
+}
+function loadlast()
+{
+$itemid = $_GET['itemId'];
+$artistid = $_GET['artistId'];
+$api = "https://api.masterpiecesolutions.org/v1/items/?key=9GMIe191f6jo81LGPHpWsA==&sortOptions=title|desc&artistId=$artistid&limit=1";	
+$result = url_get_contents($api);
+return $result['items']['0']['itemId'];
+}
 
 function loaditemnext()
 {
@@ -65,6 +89,10 @@ $itemid = $_GET['itemId'];
 $artistid = $_GET['artistId'];
 $api = "https://api.masterpiecesolutions.org/v1/items/?key=9GMIe191f6jo81LGPHpWsA==&compare=itemId|$itemid|>&artistId=$artistid&limit=1";	
 $result = url_get_contents($api);
+if($result['items']['0']['itemId']=='')
+{
+	return loadfirst();
+}
 return $result['items']['0']['itemId'];
 }
 
@@ -74,6 +102,10 @@ $itemid = $_GET['itemId'];
 $artistid = $_GET['artistId'];
 $api = "https://api.masterpiecesolutions.org/v1/items/?key=9GMIe191f6jo81LGPHpWsA==&compare=itemId|$itemid|<&artistId=$artistid&limit=1";	
 $result = url_get_contents($api);
+if($result['items']['0']['itemId']=='')
+{
+	return loadlast();
+}
 return $result['items']['0']['itemId'];
 }
 

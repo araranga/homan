@@ -67,19 +67,12 @@ $bannerimages = $banners['items'][0]['pictures'];
 
 <div class='container'>
    <div class="row text-block">
-      <div class="col-md-6 col-sm-12 text-style">
+      <div class="col-md-12 col-sm-12 text-style">
          <p>
             ART CONSULTING
          </p>
-         <p style="text-align:justify"><strong>Hohmann</strong> offers art consulting to private clients, businesses, designers, architects and builders. The gallery specializes in curating entire collections for multimillion dollar residences that are built, designed and furnished to be sold as a complete masterpiece of architecture, interior design and art.</p>
-         <p style="text-align:justify">The taste for art is as personal as the taste for wine and it is nearly impossible to appeal to everybody, which is why it is crucial to create a harmony between house and art and to assemble an art collection instead of trying to decorate.</p>
-         <p style="text-align:justify">Christian Hohmann has curated exhibitions and assisted with art collections in the U.S. and Europe for 20 years and his family for nearly 40. With access to more than 250 artists and a vast inventory of fine art, his work is site specific and creates a flow between art and architecture by curating a collection that is worth owning.</p>
-      </div>
-      <div class="col-md-6 col-sm-12 text-style">
-         <p class="visible-lg visible-md">&nbsp;</p>
-         <p style="text-align: justify;">Hohmann curates an art collection that has the look and feel of having been assembled over a long period of time with works by professional artists that have been judged and proven to be of high quality and relevance. This kind of collection harmonizes with the home and its surroundings, emphasizing the architecture without dominating it.</p>
-         <p style="text-align: justify;">&nbsp;</p>
-         <p style="text-align: justify;">For more examples or references please contact the gallery or view the brochure here:</p>
+         <p style="text-align:justify"><strong>CHELRA</strong> offers art consulting to collectors, designers, architects, private clients and businesses. Chelra specializes in curating entire collections for multimillion dollar residences that are designed, built and furnished as a composite masterpiece of architecture, interior design and Art.
+Art reflect the intellectual depth of the collector. It is therefore imperative that a perfect harmony between the home or building, and the art collection is presented comprehensively as well as artfully.</p>
       </div>
    </div>
 </div>

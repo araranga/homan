@@ -43,10 +43,11 @@ $bannerimages = $banners['items'][0]['pictures'];
             <div class="carousel-inner">
                <?php
                   $ok = 0;
+				  $urls = array("info-about.php","services-art-consulting.php");
                   foreach($bannerimages as $key=>$val){
                ?>
                <div class="item <?php if($ok==0){ echo "active"; $ok++; }?>">
-                  <a href="#">
+                  <a href="<?php if($urls[$key]!='') { echo $urls[$key]; } else { echo "#"; } ?>">
                   <img src="<?php echo $val;?>" alt="">
                   </a>
                </div>

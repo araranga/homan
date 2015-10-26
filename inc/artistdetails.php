@@ -156,8 +156,11 @@
 <?php
 $next = loaditemnext();
 $prev = loaditemprev();
+$tots = loadallitembyartist(1,$_GET['artistId']);
 ?>
             <?php 
+			if($tots>1)
+			{
             if($prev!='')
             {
             ?>
@@ -178,6 +181,7 @@ $prev = loaditemprev();
             </a>
             <?php
             }
+			}
             ?>  
 
    </div>
@@ -193,7 +197,14 @@ $prev = loaditemprev();
          <div class="text-left">
             We only feature selected examples online. 
             Please contact the gallery for additional works or if you would like to be notified of new arrivals by this artist.
+			<?php
+			if($_GET['artistdata']['biography']!='')
+			{
+			?>
             <br/><button data-target="#biography" data-toggle="modal" type="button" class="btn btn-primary btn-sm wide-button">VIEW BIOGRAPHY</button>
+			<?php
+			}
+			?>
          </div>
       </div>
       <div class="col-sm-6 col-xs-12">
